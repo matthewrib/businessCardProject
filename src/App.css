@@ -1,42 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+p {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+}
+
+#selfie {
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#linkedInBtn {
+  color: white;
+  background: #5093E2;
+}
+
+.heroInfo, footer, .aboutContainer {
+  padding: 0px 35px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.heroInfo > h1 {
+  font-size: 25px;
+  font-weight: 600;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heroInfo > h3 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: #F3BF99;
+  margin-bottom: -5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.contactContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
+.contactEmail {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border: none;
+  font-family: inherit;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 14px
 }
 
-.read-the-docs {
-  color: #888;
+.aboutContainer {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.infoContainer > h2 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: -5px;
+}
+
+.socials {
+  width: 30px;
+  margin: 15px;
 }
